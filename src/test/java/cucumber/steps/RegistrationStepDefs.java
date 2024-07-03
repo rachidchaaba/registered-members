@@ -24,7 +24,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RegistrationStepDefs {
 
-  private static final String BASE_URL = "http://localhost:8080";
   private static final String REGISTRATION_ENDPOINT = "/registration";
   private static final String CONFIG_ENDPOINT = "/config";
   private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
